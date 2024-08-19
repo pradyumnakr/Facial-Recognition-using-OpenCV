@@ -15,6 +15,7 @@ Run the following command to capture images through your webcam and store them i
 
 ```bash
 python3 dataset_creator.py
+```
 
 ### 3. Train the Model
 
@@ -26,6 +27,7 @@ Run the following command to train the model:
 
 ```bash
 python3 trainer.py
+```
 
 **Training Output:**
 
@@ -41,6 +43,7 @@ Use the following command to detect faces using your webcam:
 
 ```bash
 python3 detector.py
+```
 
 **Real-Time Detection**
 
