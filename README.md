@@ -15,3 +15,41 @@ Run the following command to capture images through your webcam and store them i
 
 ```bash
 python3 dataset_creator.py
+
+### 3. Train the Model
+
+After creating the dataset, follow these steps to train the face recognition model:
+
+**Run the Trainer Script:**
+
+Run the following command to train the model:
+
+```bash
+python3 trainer.py
+
+**Training Output:**
+
+The script will process the images from the dataset folder and generate the trained model, which will be used for face detection.
+
+### 4. Detect Faces in Real-Time
+
+To detect faces in real-time, follow these steps:
+
+**Run the Detector Script:**
+
+Use the following command to detect faces using your webcam:
+
+```bash
+python3 detector.py
+
+**Real-Time Detection**
+
+The script will access your webcam, detect faces, and display them with labels in real-time.
+
+### Sample Output
+
+Upon successful execution, the output will resemble the following image:
+
+![Sample Output](output.png)
+
+
